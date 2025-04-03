@@ -17,6 +17,12 @@
     <div class="container">
 
       <div class="row mt-3">
+        <div class="col-md-12">
+          <center><img class="img-fluid" src="{{ asset('storage/IMG_3709.png') }}" alt="Card image cap" width="100%"></center>
+        </div>
+      </div>
+
+      <div class="row mt-3">
         <div class="col-md-3">
           <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="{{ asset('storage/EstilosVida-Saludables.png') }}" alt="Card image cap">
