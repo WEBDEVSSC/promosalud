@@ -190,6 +190,27 @@
                     <a href="{{ route('detallesCategoria', ['id' => 17]) }}" class="btn btn-primary">Más información</a>
                   </div>
                 </div>
+                <div class="card">
+                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">.</h5>
+                    <a href="{{ route('detallesCategoria', ['id' => 17]) }}" class="btn btn-primary">Más información</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">.</h5>
+                    <a href="{{ route('detallesCategoria', ['id' => 17]) }}" class="btn btn-primary">Más información</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">.</h5>
+                    <a href="{{ route('detallesCategoria', ['id' => 17]) }}" class="btn btn-primary">Más información</a>
+                  </div>
+                </div>
             </div>
         </div>
       </div>
