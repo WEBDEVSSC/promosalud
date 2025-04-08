@@ -37,7 +37,7 @@
             <img class="card-img-top" src="{{ asset('storage/LactanciaMaterna.png') }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">Lactancia Materna</h5>              
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="{{ route('detallesCategoria', ['id' => 2]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@
             <img class="card-img-top" src="{{ asset('storage/EnfCronicas-NoTransmisibles.png') }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">Enf. Crónicas no Transm.</h5>              
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="{{ route('detallesCategoria', ['id' => 3]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
             <img class="card-img-top" src="{{ asset('storage/EnfTransmitidas-Vector.png') }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">Enf. Transmitidas por Vector</h5>              
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="{{ route('detallesCategoria', ['id' => 4]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@
             <img class="card-img-top" src="{{ asset('storage/EnfZoonoticas.png') }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">Enfermedades <br> Zoonoticas</h5>              
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="{{ route('detallesCategoria', ['id' => 5]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
             <img class="card-img-top" src="{{ asset('storage/CambioClimatico.png') }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">Cambio <br> Climático</h5>              
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="{{ route('detallesCategoria', ['id' => 6]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@
             <img class="card-img-top" src="{{ asset('storage/SaludBucal.png') }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">Salud <br> Bucal</h5>              
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="{{ route('detallesCategoria', ['id' => 7]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@
             <img class="card-img-top" src="{{ asset('storage/SaludSexual-Reproductiva.png') }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">Salud Sexual y Reproductiva</h5>              
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="{{ route('detallesCategoria', ['id' => 8]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@
             <img class="card-img-top" src="{{ asset('storage/CNS.png') }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">Cartilla Nacional de Salud</h5>              
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="{{ route('detallesCategoria', ['id' => 9]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@
             <img class="card-img-top" src="{{ asset('storage/Cancer-Mujer.png') }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">Cáncer de la mujer</h5>              
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="{{ route('detallesCategoria', ['id' => 10]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@
             <img class="card-img-top" src="{{ asset('storage/Adicciones.png') }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">Adicciones</h5>              
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="{{ route('detallesCategoria', ['id' => 11]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
@@ -136,7 +136,7 @@
             <img class="card-img-top" src="{{ asset('storage/Enf-Alimentarias.png') }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">Enfermedades alimentarias</h5>              
-              <a href="#" class="btn btn-primary">Más información</a>
+              <a href="{{ route('detallesCategoria', ['id' => 12]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@
                   <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
                   <div class="card-body text-center">
                     <h5 class="card-title">Campañas</h5>
-                    <a href="#" class="btn btn-primary">Más información</a>
+                    <a href="{{ route('detallesCategoria', ['id' => 13]) }}" class="btn btn-primary">Más información</a>
                   </div>
                 </div>
                 <div class="card">
