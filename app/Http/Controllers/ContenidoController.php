@@ -39,6 +39,7 @@ class ContenidoController extends Controller
         $contenido = new Contenido();
 
         $contenido->nombre = $request->nombre;
+        $contenido->id_categoria = $categoria->id_categoria;
         $contenido->categoria = $request->categoria_id;
         $contenido->categoria_label = $categoriaLabel;
         $contenido->archivo = $path;
@@ -47,5 +48,16 @@ class ContenidoController extends Controller
 
         return redirect()->route('contenidosIndex')->with('success', 'Documento registrado correctamente');
 
+    }
+
+    public function detallesCategoria($id)
+    {
+        // Consultamos todos los registros de la categoria
+        $categoria = Contenido::where('id_categoria',$id)
+                    ->orderBy('created_at','DESC')            
+                    ->get();
+
+        // Pasamos la vista con el arreglo
+        return view('detallesCategoria', compact('categoria'));
     }
 }

@@ -17,221 +17,164 @@
     <div class="container">
 
       <div class="row mt-3">
-        <div class="col-md-12">
-          <center><img class="img-fluid" src="{{ asset('storage/IMG_3709.png') }}" alt="Card image cap" width="100%"></center>
+        <div class="col-12 text-center">
+          <img class="img-fluid" src="{{ asset('storage/IMG_3709.png') }}" alt="Card image cap" width="80%">
         </div>
       </div>
 
       <div class="row mt-3">
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/EstilosVida-Saludables.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Estilos de Vida Saludables</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Estilos de Vida Saludables</h5>              
+              <a href="{{ route('detallesCategoria', ['id' => 1]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/LactanciaMaterna.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Lactancia Materna</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Lactancia Materna</h5>              
+              <a href="#" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/EnfCronicas-NoTransmisibles.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Enf. Crónicas no Transm.</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Enf. Crónicas no Transm.</h5>              
+              <a href="#" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/EnfTransmitidas-Vector.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Enf. Transmitidas por Vector</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Enf. Transmitidas por Vector</h5>              
+              <a href="#" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- -->
-
+      <!-- Repetir para el resto de las filas de tarjetas -->
+      
       <div class="row mt-3">
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/EnfZoonoticas.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Enfermedades <br> Zoonoticas</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Enfermedades <br> Zoonoticas</h5>              
+              <a href="#" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/CambioClimatico.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Cambio <br> Climático</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Cambio <br> Climático</h5>              
+              <a href="#" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/SaludBucal.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Salud <br> Bucal</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Salud <br> Bucal</h5>              
+              <a href="#" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/SaludSexual-Reproductiva.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Salud Sexual y Reproductiva</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Salud Sexual y Reproductiva</h5>              
+              <a href="#" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- -->
-
-      <!-- -->
-
+      <!-- Última fila de tarjetas -->
       <div class="row mt-3">
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/CNS.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Cartilla Nacional de Salud</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Cartilla Nacional de Salud</h5>              
+              <a href="#" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/Cancer-Mujer.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Cáncer de la mujer</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Cáncer de la mujer</h5>              
+              <a href="#" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/Adicciones.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Adicciones</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Adicciones</h5>              
+              <a href="#" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
             <img class="card-img-top" src="{{ asset('storage/Enf-Alimentarias.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Enfermedades alimentarias</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+            <div class="card-body text-center">
+              <h5 class="card-title">Enfermedades alimentarias</h5>              
+              <a href="#" class="btn btn-primary">Más información</a>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- -->
-
-      <!-- -->
-
+      <!-- Cards con grupo de 4 -->
       <div class="row mt-3">
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="{{ asset('storage/EnfPrevenibles-Vacunacion.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Enf. prevenibles por vacunación</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
+        <div class="col-12">
+            <div class="card-group">
+                <div class="card">
+                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Campañas</h5>
+                    <a href="#" class="btn btn-primary">Más información</a>
+                  </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('storage/1709238749980-75e4a92d-92d7-4d82-ad96-b6ccaf2b3ba3_5.jpg') }}" alt="Mi Imagen">
+                    <div class="card-body text-center">
+                      <h5 class="card-title"></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('storage/1709238749980-75e4a92d-92d7-4d82-ad96-b6ccaf2b3ba3_5.jpg') }}" alt="Mi Imagen">
+                    <div class="card-body text-center">
+                      <h5 class="card-title"></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('storage/1709238749980-75e4a92d-92d7-4d82-ad96-b6ccaf2b3ba3_5.jpg') }}" alt="Mi Imagen">
+                    <div class="card-body text-center">
+                      <h5 class="card-title"></h5>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="{{ asset('storage/Higiene.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Higiene</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="{{ asset('storage/EDAS.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Enf. diarreicas agudas</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="{{ asset('storage/IRAS.png') }}" alt="Card image cap">
-            <div class="card-body">
-              <center><h5 class="card-title">Enfermedades respiratorias</h5>              
-              <a href="#" class="btn btn-primary">Más información</a></center>
-            </div>
-          </div>
         </div>
       </div>
 
-      <!-- -->
-
-         <!-- -->
-
-         <div class="row mt-3">
-            <div class="col-md-12">
-                <div class="card-group">                    
-                    <div class="card">
-                      <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
-                      <div class="card-body">
-                        <center><h5 class="card-title">Campañas</h5>
-                        <a href="#" class="btn btn-primary">Más información</a></center>
-                      </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="{{ asset('storage/1709238749980-75e4a92d-92d7-4d82-ad96-b6ccaf2b3ba3_5.jpg') }}" alt="Mi Imagen">
-                        <div class="card-body">
-                          <h5 class="card-title"></h5>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <img class="card-img-top" src="{{ asset('storage/1709238749980-75e4a92d-92d7-4d82-ad96-b6ccaf2b3ba3_5.jpg') }}" alt="Mi Imagen">
-                        <div class="card-body">
-                          <h5 class="card-title"></h5>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <img class="card-img-top" src="{{ asset('storage/1709238749980-75e4a92d-92d7-4d82-ad96-b6ccaf2b3ba3_5.jpg') }}" alt="Mi Imagen">
-                        <div class="card-body">
-                          <h5 class="card-title"></h5>
-                        </div>
-                      </div>
-                  </div>
-            </div>
-        </div>
-
-        <!-- -->
-
-        <!-- -->
-
-        
-
-        <!-- -->
-        
     </div><!-- DIV CONTAINER -->
 
     <!-- Enlace al JS de Bootstrap desde CDN -->

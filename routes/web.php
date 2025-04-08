@@ -8,6 +8,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('detallesCategoria/{id}', [ContenidoController::class,'detallesCategoria'])->name('detallesCategoria');
+
+Route::get('detallesCategoria/{id}', [ContenidoController::class, 'detallesCategoria'])->name('detallesCategoria');
+
 Auth::routes();
 
 // Rutas protegidas por autenticación
