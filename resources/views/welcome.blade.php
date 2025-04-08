@@ -149,27 +149,46 @@
                 <div class="card">
                   <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
                   <div class="card-body text-center">
-                    <h5 class="card-title">Campañas</h5>
+                    <h5 class="card-title">Enfermedades prevenibles por vacunación</h5>
                     <a href="{{ route('detallesCategoria', ['id' => 13]) }}" class="btn btn-primary">Más información</a>
                   </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('storage/1709238749980-75e4a92d-92d7-4d82-ad96-b6ccaf2b3ba3_5.jpg') }}" alt="Mi Imagen">
-                    <div class="card-body text-center">
-                      <h5 class="card-title"></h5>
-                    </div>
+                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Higiene</h5>
+                    <a href="{{ route('detallesCategoria', ['id' => 14]) }}" class="btn btn-primary">Más información</a>
+                  </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('storage/1709238749980-75e4a92d-92d7-4d82-ad96-b6ccaf2b3ba3_5.jpg') }}" alt="Mi Imagen">
-                    <div class="card-body text-center">
-                      <h5 class="card-title"></h5>
-                    </div>
+                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Enfermedades diarreicas agudas</h5>
+                    <a href="{{ route('detallesCategoria', ['id' => 15]) }}" class="btn btn-primary">Más información</a>
+                  </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('storage/1709238749980-75e4a92d-92d7-4d82-ad96-b6ccaf2b3ba3_5.jpg') }}" alt="Mi Imagen">
-                    <div class="card-body text-center">
-                      <h5 class="card-title"></h5>
-                    </div>
+                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Enfermedades respiratorias</h5>
+                    <a href="{{ route('detallesCategoria', ['id' => 16]) }}" class="btn btn-primary">Más información</a>
+                  </div>
+                </div>
+                
+            </div>
+        </div>
+      </div>
+
+      <!-- Cards con grupo de 4 -->
+      <div class="row mt-3">
+        <div class="col-12">
+            <div class="card-group">
+                <div class="card">
+                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Campañas</h5>
+                    <a href="{{ route('detallesCategoria', ['id' => 17]) }}" class="btn btn-primary">Más información</a>
+                  </div>
                 </div>
             </div>
         </div>
