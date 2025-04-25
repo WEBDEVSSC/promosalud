@@ -58,6 +58,6 @@ class ContenidoController extends Controller
                     ->get();
 
         // Pasamos la vista con el arreglo
-        return view('detallesCategoria', compact('categoria'));
+        return view('detallesCategoria', compact('categoria', 'id'));
     }
 }

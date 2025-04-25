@@ -16,11 +16,23 @@
     <!-- Contenido de la página -->
     <div class="container">
 
-        <div class="row mt-3">
-            <div class="col-12 text-center">
-              <img class="img-fluid" src="{{ asset('storage/IMG_3709.PNG') }}" alt="Card image cap" width="80%">
+        @if($id==18)
+          
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                <img class="img-fluid" src="{{ asset('storage/Dengue-Banner.png') }}" alt="Card image cap" width="80%">
+                </div>
             </div>
-          </div>
+        
+        @else
+        
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                <img class="img-fluid" src="{{ asset('storage/IMG_3709.PNG') }}" alt="Card image cap" width="80%">
+                </div>
+            </div>
+        
+        @endif
 
           <br>
           <br>
