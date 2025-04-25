@@ -191,7 +191,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/SinImagen.png') }}" alt="Mi Imagen">
+                  <img class="card-img-top" src="{{ asset('storage/Dengue-Pagina.png') }}" alt="Mi Imagen">
                   <div class="card-body text-center">
                     <h5 class="card-title">EL dengue es<br>cosa seria</h5>
                     <a href="{{ route('detallesCategoria', ['id' => 18]) }}" class="btn btn-primary">Más información</a>
