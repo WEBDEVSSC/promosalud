@@ -154,21 +154,21 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <img class="card-img-top" src="{{ asset('storage/Higiene.png') }}" alt="Mi Imagen">
                   <div class="card-body text-center">
                     <h5 class="card-title">Higiene</h5>
                     <a href="{{ route('detallesCategoria', ['id' => 14]) }}" class="btn btn-primary">Más información</a>
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <img class="card-img-top" src="{{ asset('storage/EDAS.png') }}" alt="Mi Imagen">
                   <div class="card-body text-center">
                     <h5 class="card-title">Enfermedades diarreicas agudas</h5>
                     <a href="{{ route('detallesCategoria', ['id' => 15]) }}" class="btn btn-primary">Más información</a>
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <img class="card-img-top" src="{{ asset('storage/IRAS.png') }}" alt="Mi Imagen">
                   <div class="card-body text-center">
                     <h5 class="card-title">Enfermedades respiratorias</h5>
                     <a href="{{ route('detallesCategoria', ['id' => 16]) }}" class="btn btn-primary">Más información</a>
@@ -191,24 +191,24 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <img class="card-img-top" src="{{ asset('storage/SinImagen.png') }}" alt="Mi Imagen">
                   <div class="card-body text-center">
-                    <h5 class="card-title">.</h5>
-                    <a href="{{ route('detallesCategoria', ['id' => 17]) }}" class="btn btn-primary">Más información</a>
+                    <h5 class="card-title">EL Dengue es cosa seria</h5>
+                    <a href="{{ route('detallesCategoria', ['id' => 18]) }}" class="btn btn-primary">Más información</a>
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <img class="card-img-top" src="{{ asset('storage/SinImagen.png') }}" alt="Mi Imagen">
                   <div class="card-body text-center">
-                    <h5 class="card-title">.</h5>
-                    <a href="{{ route('detallesCategoria', ['id' => 17]) }}" class="btn btn-primary">Más información</a>
+                    <h5 class="card-title"></h5>
+                    <!-- <a href="{{ route('detallesCategoria', ['id' => 0]) }}" class="btn btn-primary">Más información</a> -->
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <img class="card-img-top" src="{{ asset('storage/SinImagen.png') }}" alt="Mi Imagen">
                   <div class="card-body text-center">
-                    <h5 class="card-title">.</h5>
-                    <a href="{{ route('detallesCategoria', ['id' => 17]) }}" class="btn btn-primary">Más información</a>
+                    <h5 class="card-title"></h5>
+                    <!-- <a href="{{ route('detallesCategoria', ['id' => 0]) }}" class="btn btn-primary">Más información</a> -->
                   </div>
                 </div>
             </div>
