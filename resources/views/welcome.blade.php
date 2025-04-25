@@ -147,7 +147,7 @@
         <div class="col-12">
             <div class="card-group">
                 <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
+                  <img class="card-img-top" src="{{ asset('storage/EnfPrevenibles-Vacunacion.png') }}" alt="Mi Imagen">
                   <div class="card-body text-center">
                     <h5 class="card-title">Enfermedades prevenibles por vacunación</h5>
                     <a href="{{ route('detallesCategoria', ['id' => 13]) }}" class="btn btn-primary">Más información</a>
