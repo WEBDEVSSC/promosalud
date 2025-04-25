@@ -18,7 +18,7 @@
 
         <div class="row mt-3">
             <div class="col-12 text-center">
-              <img class="img-fluid" src="{{ asset('storage/IMG_3709.png') }}" alt="Card image cap" width="80%">
+              <img class="img-fluid" src="{{ asset('storage/IMG_3709.PNG') }}" alt="Card image cap" width="80%">
             </div>
           </div>
 
