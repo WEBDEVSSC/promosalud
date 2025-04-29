@@ -12,7 +12,24 @@ Route::get('detallesCategoria/{id}', [ContenidoController::class,'detallesCatego
 
 Route::get('detallesCategoria/{id}', [ContenidoController::class, 'detallesCategoria'])->name('detallesCategoria');
 
-Auth::routes();
+Auth::routes([
+    'register' => false,
+    'reset' => false,
+    'email' => false
+]);
+
+// Redirigir manualmente a la página de login si alguien accede a /register
+Route::get('/register', function () {
+    return redirect()->route('login'); 
+});
+
+Route::get('/password/reset', function () {
+    return redirect()->route('login'); 
+});
+
+Route::get('/password/email', function () {
+    return redirect()->route('login'); 
+});
 
 // Rutas protegidas por autenticación
 Route::middleware('auth')->group(function()

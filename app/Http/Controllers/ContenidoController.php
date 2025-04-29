@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Categoria;
 use App\Models\Contenido;
+use Flasher\Toastr\Laravel\Facade\Toastr;
 use Illuminate\Http\Request;
 
 class ContenidoController extends Controller
