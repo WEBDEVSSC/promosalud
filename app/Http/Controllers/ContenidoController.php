@@ -52,7 +52,7 @@ class ContenidoController extends Controller
     }
 
     public function detallesCategoria($id)
-    {
+    {        
         // Consultamos todos los registros de la categoria
         $categoria = Contenido::where('id_categoria',$id)
                     ->orderBy('created_at','DESC')            

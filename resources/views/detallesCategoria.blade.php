@@ -37,28 +37,56 @@
           <br>
           <br>
 
+        @if ($id==19)
+        
+            <center>
+                <iframe width="860" height="615" src="https://www.youtube.com/embed/ySkUb5WZjFs?si=JZH66UaFLIjogKtF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </center>
+        
+        @elseif($id==20)
+            <center>
+                <iframe width="860" height="615" src="https://www.youtube.com/embed/DEWHgwDTiCU?si=s-O3uTtvBA0zu2RV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </center>
+        @endif
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+
+                    
+                    <div class="card-body">
+
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Contenido</th>
+                                    <th>Categoria</th>
+                                    <th>Fecha de publicación</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach($categoria as $cat)
+                                    <tr>
+                                        <td>{{ $cat->nombre }}</td>
+                                        <td>{{ $cat->categoria_label }}</td>
+                                        <td>{{ $cat->created_at }}</td>
+                                        <td><a href="{{ asset('storage/' . $cat->archivo) }}" class="btn btn-primary btn-sm" download>Descargar Archivo</a></td> 
+                                        
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+
         <!-- Tabla de Categorías -->
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Contenido</th>
-                    <th>Categoria</th>
-                    <th>Fecha de publicación</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach($categoria as $cat)
-                    <tr>
-                        <td>{{ $cat->nombre }}</td>
-                        <td>{{ $cat->categoria_label }}</td>
-                        <td>{{ $cat->created_at }}</td>
-                        <td><a href="{{ asset('storage/' . $cat->archivo) }}" class="btn btn-primary btn-sm" download>Descargar Archivo</a></td> 
-                        
-                    </tr>
-                @endforeach
-            </tbody>
-        </table>
+        
 
     </div><!-- DIV CONTAINER -->
 

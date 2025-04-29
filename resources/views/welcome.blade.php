@@ -22,6 +22,46 @@
         </div>
       </div>
 
+      <!-- Última fila de tarjetas -->
+      <div class="row mt-3">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
+            <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Campañas<br>.</h5>              
+              <a href="{{ route('detallesCategoria', ['id' => 17]) }}" class="btn btn-primary">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
+            <img class="card-img-top" src="{{ asset('storage/Dengue-Pagina.png') }}" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">EL dengue es<br>cosa seria</h5>              
+              <a href="{{ route('detallesCategoria', ['id' => 18]) }}" class="btn btn-primary">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
+            <img class="card-img-top" src="{{ asset('storage/Portadas-Rikki2.png') }}" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Rikki la garrapata <br> (Audio cuento , LSM)</h5>              
+              <a href="{{ route('detallesCategoria', ['id' => 19]) }}" class="btn btn-primary">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
+            <img class="card-img-top" src="{{ asset('storage/Portadas-Sofia.png') }}" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Soffia cazadora de mosquitos<br> (Audio cuento , LSM)</h5>              
+              <a href="{{ route('detallesCategoria', ['id' => 20]) }}" class="btn btn-primary">Más información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="row mt-3">
         <div class="col-12 col-sm-6 col-md-3 mb-3">
           <div class="card">
@@ -142,78 +182,53 @@
         </div>
       </div>
 
-      <!-- Cards con grupo de 4 -->
+      <!-- ENFERMEDADES PREVENIBLES POR VACUNACION -->
+
+      <!-- Última fila de tarjetas -->
       <div class="row mt-3">
-        <div class="col-12">
-            <div class="card-group">
-                <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/EnfPrevenibles-Vacunacion.png') }}" alt="Mi Imagen">
-                  <div class="card-body text-center">
-                    <h5 class="card-title">Enfermedades prevenibles<br>por vacunación</h5>
-                    <a href="{{ route('detallesCategoria', ['id' => 13]) }}" class="btn btn-primary">Más información</a>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/Higiene.png') }}" alt="Mi Imagen">
-                  <div class="card-body text-center">
-                    <h5 class="card-title">Higiene<br>.</h5>
-                    <a href="{{ route('detallesCategoria', ['id' => 14]) }}" class="btn btn-primary">Más información</a>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/EDAS.png') }}" alt="Mi Imagen">
-                  <div class="card-body text-center">
-                    <h5 class="card-title">Enfermedades<br>diarreicas agudas</h5>
-                    <a href="{{ route('detallesCategoria', ['id' => 15]) }}" class="btn btn-primary">Más información</a>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/IRAS.png') }}" alt="Mi Imagen">
-                  <div class="card-body text-center">
-                    <h5 class="card-title">Enfermedades<br>respiratorias</h5>
-                    <a href="{{ route('detallesCategoria', ['id' => 16]) }}" class="btn btn-primary">Más información</a>
-                  </div>
-                </div>
-                
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
+            <img class="card-img-top" src="{{ asset('storage/EnfPrevenibles-Vacunacion.png') }}" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Enfermedades prevenibles<br>por vacunación</h5>              
+              <a href="{{ route('detallesCategoria', ['id' => 13]) }}" class="btn btn-primary">Más información</a>
             </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
+            <img class="card-img-top" src="{{ asset('storage/Higiene.png') }}" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Higiene<br>.</h5>              
+              <a href="{{ route('detallesCategoria', ['id' => 14]) }}" class="btn btn-primary">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
+            <img class="card-img-top" src="{{ asset('storage/EDAS.png') }}" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Enfermedades<br>diarreicas agudas</h5>              
+              <a href="{{ route('detallesCategoria', ['id' => 15]) }}" class="btn btn-primary">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card">
+            <img class="card-img-top" src="{{ asset('storage/IRAS.png') }}" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Enfermedades<br>respiratorias</h5>              
+              <a href="{{ route('detallesCategoria', ['id' => 16]) }}" class="btn btn-primary">Más información</a>
+            </div>
+          </div>
         </div>
       </div>
 
+      <!-- CAMPAÑAS -->
+
+      
+
       <!-- Cards con grupo de 4 -->
-      <div class="row mt-3">
-        <div class="col-12">
-            <div class="card-group">
-                <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/Campanas.png') }}" alt="Mi Imagen">
-                  <div class="card-body text-center">
-                    <h5 class="card-title">Campañas<br>.</h5>
-                    <a href="{{ route('detallesCategoria', ['id' => 17]) }}" class="btn btn-primary">Más información</a>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/Dengue-Pagina.png') }}" alt="Mi Imagen">
-                  <div class="card-body text-center">
-                    <h5 class="card-title">EL dengue es<br>cosa seria</h5>
-                    <a href="{{ route('detallesCategoria', ['id' => 18]) }}" class="btn btn-primary">Más información</a>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/SinImagen.png') }}" alt="Mi Imagen">
-                  <div class="card-body text-center">
-                    <h5 class="card-title"></h5>
-                    <!-- <a href="{{ route('detallesCategoria', ['id' => 0]) }}" class="btn btn-primary">Más información</a> -->
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="{{ asset('storage/SinImagen.png') }}" alt="Mi Imagen">
-                  <div class="card-body text-center">
-                    <h5 class="card-title"></h5>
-                    <!-- <a href="{{ route('detallesCategoria', ['id' => 0]) }}" class="btn btn-primary">Más información</a> -->
-                  </div>
-                </div>
-            </div>
-        </div>
-      </div>
 
     </div><!-- DIV CONTAINER -->
 
