@@ -6,6 +6,7 @@ use App\Models\Categoria;
 use App\Models\Contenido;
 use Flasher\Toastr\Laravel\Facade\Toastr;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class ContenidoController extends Controller
 {
@@ -60,5 +61,26 @@ class ContenidoController extends Controller
 
         // Pasamos la vista con el arreglo
         return view('detallesCategoria', compact('categoria', 'id'));
+    }
+
+    public function descargar($id)
+    {
+        $contenido = Contenido::findOrFail($id);
+
+        // Ruta relativa al disco 'public'
+        $archivo = $contenido->archivo; // ej: uploads/mi_archivo.pdf
+
+        // Verificar que el archivo exista en el disco 'public'
+        if (Storage::disk('public')->exists($archivo)) {
+
+            // Incrementar contador
+            $contenido->increment('contador');
+
+            // Descargar archivo
+            return Storage::disk('public')->download($archivo);
+        }
+
+        // Archivo no encontrado
+        return abort(404, 'Archivo no encontrado');
     }
 }

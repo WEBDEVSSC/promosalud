@@ -72,6 +72,11 @@
                                         <td>{{ $cat->categoria_label }}</td>
                                         <td>{{ $cat->created_at }}</td>
                                         <td><a href="{{ asset('storage/' . $cat->archivo) }}" class="btn btn-primary btn-sm" download>Descargar Archivo</a></td> 
+                                        <td>
+                                            <a href="{{ route('contenidos.descargar', $cat->id) }}" class="btn btn-primary btn-sm">
+                                                Descargar Archivo
+                                            </a>
+                                        </td>
                                         
                                     </tr>
                                 @endforeach

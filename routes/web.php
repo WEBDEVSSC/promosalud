@@ -12,6 +12,8 @@ Route::get('detallesCategoria/{id}', [ContenidoController::class,'detallesCatego
 
 Route::get('detallesCategoria/{id}', [ContenidoController::class, 'detallesCategoria'])->name('detallesCategoria');
 
+Route::get('/descargar/{id}', [ContenidoController::class, 'descargar'])->name('contenidos.descargar');
+
 Auth::routes([
     'register' => false,
     'reset' => false,
