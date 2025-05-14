@@ -47,6 +47,8 @@ Route::middleware('auth')->group(function()
 
     Route::post('admin/contenidosStore', [ContenidoController::class,'contenidosStore'] )->name('contenidosStore');
 
+    Route::delete('admin/contenidosDelete/{id}', [ContenidoController::class,'contenidosDelete'] )->name('contenidosDelete');
+
 });
 
 

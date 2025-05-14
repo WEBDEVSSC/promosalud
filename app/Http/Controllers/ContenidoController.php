@@ -83,4 +83,19 @@ class ContenidoController extends Controller
         // Archivo no encontrado
         return abort(404, 'Archivo no encontrado');
     }
+
+    public function contenidosDelete($id)
+    {
+        $contenido = Contenido::findOrFail($id);
+
+        // Eliminar archivo físicamente si existe
+        if ($contenido->archivo && Storage::disk('public')->exists($contenido->archivo)) {
+            Storage::disk('public')->delete($contenido->archivo);
+        }
+
+        // Eliminar el registro de la base de datos
+        $contenido->delete();
+
+        return redirect()->back()->with('success', 'Archivo eliminado correctamente.');
+    }
 }
