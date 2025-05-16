@@ -77,7 +77,7 @@
           <div class="card">
             <img class="card-img-top" src="{{ asset('storage/Portadas-Sofia.png') }}" alt="Card image cap">
             <div class="card-body text-center">
-              <h5 class="card-title">Soffia cazadora de mosquitos<br> (Audio cuento , LSM)</h5>              
+              <h5 class="card-title">SofÍa cazadora de mosquitos<br> (Audio cuento , LSM)</h5>              
               <a href="{{ route('detallesCategoria', ['id' => 20]) }}" class="btn btn-primary">Más información</a>
             </div>
           </div>
